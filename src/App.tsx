@@ -1,3 +1,4 @@
+import SignupForm from './components/SignupForm'; 
 import React, { useState, useEffect } from 'react';
 import Navigation from './components/Navigation';
 import HeroSection from './components/HeroSection';
@@ -38,6 +39,7 @@ function App() {
         onLoginClick={() => setIsLoginModalOpen(true)}
       />
       <HeroSection />
+      <SignupForm />
       <SearchSection />
       <RecentPosts />
       <ReportSection />
